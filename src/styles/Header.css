@@ -9,5 +9,6 @@ header {
 
 header h1 {
   font-size: 80px;
+  padding-bottom: 15px;
   text-decoration: underline;
 }

@@ -1,0 +1,19 @@
+.missions {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.missions h2 {
+  background-color: gray;
+  border: solid whitesmoke 3px;
+  border-radius: 15px;
+  font-size: 50px;
+  padding: 5px 300px;
+}
+
+.missions div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

@@ -1,0 +1,28 @@
+.missionCard {
+  align-items: center;
+  background-color: aquamarine;
+  border: solid black 3px;
+  border-radius: 15px;
+  flex-direction: column;
+  height: 170px;
+  margin: 30px 10px;
+  width: 390px;
+}
+
+.missionName {
+  font-size: 25px;
+  font-weight: 900;
+  padding: 10px;
+}
+
+.missionCard div {
+  border-top: solid black 3px;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 20px;
+  width: 100%;
+}
+
+.missionCard div p {
+  width: 100%;
+}

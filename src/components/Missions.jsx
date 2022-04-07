@@ -6,15 +6,17 @@ import missions from '../data/missions';
 class Missions extends Component {
   render() {
     return (
-      <div data-testid="missions">
+      <div className="missions" data-testid="missions">
         <Title headline="Missões" />
-        { missions.map(({ name, year, country, destination }) => (<MissionCard
-          key={ name }
-          name={ name }
-          year={ year }
-          country={ country }
-          destination={ destination }
-        />))}
+        <div>
+          { missions.map(({ name, year, country, destination }) => (<MissionCard
+            key={ name }
+            name={ name }
+            year={ year }
+            country={ country }
+            destination={ destination }
+          />))}
+        </div>
       </div>
     );
   }

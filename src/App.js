@@ -6,6 +6,8 @@ import './App.css';
 import './styles/Header.css';
 import './styles/PlanetCard.css';
 import './styles/SolarSystem.css';
+import './styles/MissionCard.css';
+import './styles/Missions.css';
 
 class App extends React.Component {
   render() {
