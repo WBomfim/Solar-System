@@ -5,13 +5,14 @@
 }
 
 .missions h2 {
-  background-color: gray;
-  border: solid whitesmoke 3px;
+  background-color: rgba(0, 0, 0, 0.411);
+  border: solid rgb(119, 119, 119) 2px;
   border-radius: 15px;
+  color: rgb(189, 189, 189);
   font-size: 50px;
   margin-bottom: 20px;
   margin-top: 80px;
-  padding: 5px 300px;
+  padding: 5px 35%;
 }
 
 .missions div {

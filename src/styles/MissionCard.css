@@ -1,8 +1,9 @@
 .missionCard {
   align-items: center;
-  background-color: aquamarine;
-  border: solid black 3px;
+  background-color: rgba(0, 0, 0, 0.411);
+  border: solid rgb(119, 119, 119) 2px;
   border-radius: 15px;
+  color: rgb(189, 189, 189);
   flex-direction: column;
   height: 170px;
   margin: 30px 10px;
@@ -16,7 +17,7 @@
 }
 
 .missionCard div {
-  border-top: solid black 3px;
+  border-top: solid rgb(119, 119, 119) 2px;
   font-size: 18px;
   font-weight: 500;
   padding: 20px;
