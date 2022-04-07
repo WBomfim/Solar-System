@@ -5,13 +5,11 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system , BlinkMacSystemFont , Ubuntu , Droid Sans , sans-serif;
 }
 
 .app {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
